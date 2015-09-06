@@ -1,0 +1,33 @@
+{
+  "name": "bintray-api",
+  "version": "0.0.1",
+  "description": "NodeJS module for interfacing with Bintray REST API",
+  "main": "./lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ariesb/bintray-api.git"
+  },
+  "keywords": [
+    "node",
+    "bintray",
+    "bintray-api",
+    "rest",
+    "client",
+    "jfrog",
+    "packages"
+  ],
+  "author": "Aries Beltran",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ariesb/bintray-api/issues"
+  },
+  "homepage": "https://github.com/ariesb/bintray-api#readme",
+  "dependencies": {
+    "clone": "^1.0.2",
+    "promise": "^7.0.4",
+    "request": "^2.61.0"
+  }
+}
