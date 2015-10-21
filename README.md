@@ -29,7 +29,7 @@ repo.packages.files('my-package-key')
     console.log(data);  
   },
   function(error){
-    console.error('Failed to create packages.' + error);
+    console.error('Failed to retrieve packages: ' + error);
   });
 
 ```
