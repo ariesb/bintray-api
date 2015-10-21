@@ -19,7 +19,7 @@
     "jfrog",
     "packages"
   ],
-  "author": "Aries Beltran",
+  "author": "Aries Beltran <ariesbe@icloud.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/ariesb/bintray-api/issues"
