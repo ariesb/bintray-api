@@ -23,7 +23,7 @@ var configs = {
   "repo": "my-repo-name"
 };
 
-var repo = new bintray(config);
+var repo = new bintray(configs);
 repo.packages.files('my-package-key')
   .then(function(data){
     console.log(data);  
